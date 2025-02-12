@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Django-LMS',  # Name of your PostgreSQL database
+        'USER': 'postgres',  # PostgreSQL user name
+        'PASSWORD': '@@@saugat10',  # PostgreSQL user password
+        'HOST': 'localhost',  # Database host (use 'localhost' if running locally)
+        'PORT': '5432',  # Default PostgreSQL port
+    }
+}
